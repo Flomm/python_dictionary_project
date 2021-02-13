@@ -1,1 +1,4 @@
-./dicts/test.txt
+.dicts/test.txt
+__pycache__/
+*.py[cod]
+*$py.class
