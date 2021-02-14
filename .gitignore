@@ -2,3 +2,4 @@ dicts/test.txt
 __pycache__/
 *.py[cod]
 *$py.class
+output/
