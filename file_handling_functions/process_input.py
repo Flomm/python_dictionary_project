@@ -10,4 +10,4 @@ def process_input(file_name):
         dict.close()
         return formatted_list
     except:
-        print('File does not exist.')
+        return 'File does not exist.'
