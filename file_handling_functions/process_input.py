@@ -1,8 +1,7 @@
 def process_input(file_name):
     try:
-        dicts_folder = 'E:/fbger/Flóri/Coding/Projects/python_dictionary/dicts/'
         formatted_list = []
-        dict = open(dicts_folder + f'{file_name}.txt', "r", encoding='utf-8')
+        dict = open(f'./dicts/{file_name}.txt', "r", encoding='utf-8')
         for row in dict:
             if row[-1] == '\n':
                 row = row[:-1]
